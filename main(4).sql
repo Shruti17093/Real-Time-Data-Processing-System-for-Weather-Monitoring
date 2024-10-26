@@ -1,0 +1,6 @@
+CREATE TABLE WeatherAlerts (
+    id INTEGER PRIMARY KEY AUTOINCREMENT,
+    city VARCHAR(50),
+    alert_message TEXT,
+    alert_time TIMESTAMP DEFAULT CURRENT_TIMESTAMP
+);
